@@ -27,7 +27,7 @@ User.pre('save', async function(next){
     next()
 })
 
-User.methods.matchPassword = async function(password) {
+User.methods.matchPasswords = async function(password) {
     return await bcrypt.compare(password, this.password)
 }
 
