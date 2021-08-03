@@ -1,0 +1,14 @@
+.navigation-blk {
+  background: #2b194e;
+  a {
+    color: #fff;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    &:hover,
+    &:visited,
+    &:focus {
+      color: #fff;
+    }
+  }
+}
