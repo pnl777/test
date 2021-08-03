@@ -1,3 +1,22 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
+
+form {
+  label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  button {
+    background: #2b194e;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
+}
